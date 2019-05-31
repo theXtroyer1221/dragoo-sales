@@ -1,0 +1,77 @@
+div.gallery {
+  border: 2px solid #ccc;
+  position: relative;
+  top: 900px;
+  left: 141%;
+   display: block;
+}
+
+div.gallery:hover {
+  border: 2px solid #2dad67;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Bungee;
+  color: #2dad67;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 17.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#phoness {
+  position: absolute;
+  top: 980px;
+  left: 25%;
+  font-family: 'Bungee', cursive;
+  font-size: 50px;
+  color: #2dad67;
+  margin: 0px;
+}
+
+#iphone {
+  position: relative;
+  width: auto;
+  left: 500px;
+  height: 260px;
+  text-align: center !important;
+}
+
+#huawei {
+  position: relative;
+  height: 275px;
+  width: auto;
+}

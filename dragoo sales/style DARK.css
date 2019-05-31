@@ -1,0 +1,359 @@
+html {
+  scroll-behavior: smooth;
+  width: ;idth: 2440px;
+}
+
+body {
+  margin:0;
+  background-color: #36393f;
+
+}
+
+ #navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202225;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  font-family: 'Muli', sans-serif;
+
+}
+
+li {
+  float: left;
+    z-index: 20;
+    font-family: 'Muli', sans-serif;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  z-index: 20;
+  font-family: 'Muli', sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  z-index: 20;
+}
+
+.active {
+  background-color: #2dad67;
+  z-index: 20;
+  font-family: 'Muli', sans-serif;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+  font-size: 22px
+}
+
+
+p1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
+  position: absolute;
+  left: 5px;
+  color: white;
+}
+
+
+h1 {
+  font-family: 'Bungee', cursive;
+
+
+  color: #2dad67;
+  text-align: center;
+}
+
+.img2 {
+  position: absolute;
+  right: 5px;
+  left: 750px;
+  z-index: 6;
+
+
+}
+.sp_p{
+  text-align: center;
+
+}
+.Rektangel_1 {
+  background-color: #484b51;
+  position: relative;
+  left: 0px;
+  top: 1388px;
+  width: 2542px;
+  height: 422px;
+  z-index: 5;
+}
+
+.Avrundad_rektangel_1 {
+  border-radius: 10px;
+  background-color: #2dad67;
+  position: absolute;
+  left: 1152px;
+  top: 96px;
+  width: 576px;
+  height: 161px;
+  z-index: 2;
+}
+
+h3 {
+  font-family: 'Bungee', cursive;
+  color: white;
+  position: absolute;
+  left: 5px;
+}
+
+h5, h6 {
+  color: white;
+  position: absolute;
+  left: 5px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.Rektangel_2 {
+  background-color: #2f3136;
+  position: absolute;
+  left: 7.9%;
+  top: 0px;
+  width: 16.5%;
+  height: 1607px;
+  z-index: 3;
+}
+
+.slider-holder {
+  width: 800px;
+  height: 400px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+  .image-holder {
+  width: 2400px;
+  background-color: white;
+  height: 400px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 3s;
+  -moz-transition: left 3s;
+  -o-transition: left 3s;
+  transition: left;
+  scroll-behavior: smooth;
+}
+
+.slider-image
+{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  width: 800px;
+  height: 400px;
+  scroll-behavior: smooth;
+}
+
+#slider-image-1:target ~ .image-holder
+{
+  left: 0px;
+  scroll-behavior: smooth;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+  left: -800px;
+  scroll-behavior: smooth;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+  left: -1600px;
+  scroll-behavior: smooth;;
+}
+
+
+#logo {
+  position: absolute;
+  top: auto;
+  z-index: 20;
+  width: 7.9%;
+  max-width: 200px;
+}
+
+.contact-panel {
+  background-color: rgb(245, 245, 245);
+  position: absolute;
+  left: 623px;
+  top: 300px;
+  width: 600px;
+  height: 525px;
+  z-index: 2;
+}
+
+#Contact_P {
+  text-align: center;
+  z-index: 19;
+  font-family: Bungee;
+}
+
+#face_logo {
+  background-image: url("face_logo.png");
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+  height: 50px;
+  width: 50px;
+  z-index: 55;
+}
+
+#Contact_P1{
+  position: relative;
+  bottom: 97px;
+  left: 65px;
+  font-family: Bungee;
+}
+/*could be lowered*/
+
+#Lager_5 {
+  background-image: url("gmail_logo12.png");
+  position: absolute;
+  left: 10px;
+  top: 125px;
+  width: 50px;
+  height: 50px;
+  z-index: 9;
+}
+
+#Contact_P2{
+  position: relative;
+  bottom: 125px;
+  left: 65px;
+  font-family: Bungee;
+}
+#you_logo{
+  position: relative;
+  left: 10px;
+  bottom: 150px;
+    width: 50px;
+}
+
+#aul {
+  color: white;
+  position: absolute;
+  left: 27px;
+  font-family: 'Muli', sans-serif;
+  fonr: ;
+}
+
+#Contact_P3{
+  position: relative;
+  bottom: 215px;
+  left: 65px;
+  font-family: Bungee;
+}
+
+#phone_logo{
+  position: relative;
+  bottom: 247px;
+  left: 10px;
+  width: 50px;
+}
+
+#Contact_P4 {
+  position: relative;
+  bottom: 370px;
+  left: 65px;
+  font-family: Bungee;
+}
+
+.fling-minislide {
+  width:350px;
+  height:300px;
+  overflow: hidden;
+  position: relative;
+}
+/*"AAARRRRGGGGGHHH WHY DOESN´T IT MAKE ANY SENCE!"
+- Jad 2019*/
+
+.fling-minislide img {
+  position:absolute;
+  animation:fling-minislide 20s
+  infinite;
+  opacity:0;
+  width: 100%;
+  height: auto;
+}
+
+#list_1, #list_2. #list_4{
+  font-size: 20px;
+}
+/*"of course Illuminati is probably the one who made @media tag"
+-Jad, 2019*/
+@media only screen and (max-width: 1440px) {
+  body {
+    background-color: lightblue;
+  }
+  .slider-holder  {
+    width: 100%;
+  }
+  .Rektangel_2{
+
+  }
+  }
+    /*"And they say progrmming makes sense"
+    -Jad, 2019*/
+  #list_1, #list_2, #list_2{
+    font-family: Bungee;
+  }
+
+    #con-home{
+  color: white;
+  position: absolute;
+  left: 5px;
+  font-family: 'Muli', sans-serif;
+  text-decoration:none;
+}
+
+    #con-home1{
+      color: white;
+      position: absolute;
+      left: 5px;
+      bottom: 190px;
+      font-family: 'Muli', sans-serif;
+      text-decoration:none;
+    }
+
+#con-home2{
+  color: white;
+  position: absolute;
+  left: 5px;
+  font-family: 'Muli', sans-serif;
+  text-decoration:none;
+  bottom: 100px;
+}
+
+#date {
+  position: absolute;
+  top: 13px;
+  left: 2250px;
+  z-index: 100;
+  color: white;
+}
+
+#p_panel {
+  color: #2dad67;
+}

@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:800" rel="stylesheet">
+
+  <br><br><br>
+    <img z-index: 20; src="Skärmklipp.png" alt="logo" >
+        <div class=".Avrundad_rektangel_1">
+
+     <h1 >Dragoo sales</h1>
+
+
+    <div class="Rektangel_1">
+
+    <h3>about us</h3>
+      <div id="middle"><a href="middle"></a>Bottom</div><br>
+      <p1>Dragoo sales is a place where you can freely publish your own prodects with your own prices*</p1>
+
+    <br><br><br><br>
+    <h5><b> *: NOTE: 1/3 of the products value goes to the respective company of dragoo sales as shares  </b></h5>
+
+    </div>
+
+    <ul>
+      <li><a class="active" href="dragoo sales main page.html">Home</a></li>
+      <li><a href="#news">latest product</a></li>
+      <li><a href="dragoo sales contact us page.html">contact</a></li>
+      <li><a href="#middle">about us</a></li>
+    </ul>
+    <div claxss="img2">
+

@@ -1,0 +1,35 @@
+https://freefrontend.com/css-gallery/
+
+
+
+.gallery1 {
+  position: relative;
+  left: 630px;
+  bottom: -337px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  height: 300px;
+  color: #2dad67;
+}
+
+.gallery1 img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery1:hover {
+  border: 2px solid #2dad67;
+}
+
+.home_gallery1{
+position: relative;
+left: 630px;
+bottom: -250px;
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 600px;
+height: 450px;
+}
