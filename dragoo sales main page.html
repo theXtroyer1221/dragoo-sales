@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Muli:800" rel="stylesheet">
+      <link rel="stylesheet" href="pro-style.css">
+    <title>dragoo sales</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide-main.css">
+  <body>
+<a name="top"></a>
+    <br><br><br>
+  <div id="logo">
+     <a href="dragoo sales main page.html"><img src="Skärmklipp.png" alt="logo" width="100%" height="auto"></a>
+  </div>
+         <!--  <div class="Avrundad_rektangel_1"> -->
+<h1> Dragoo sales </h1>
+        <!--  the image gallery -->
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="fold.jpg" alt="galaxy fold" width="600" height="400">
+    </a>
+    <div class="desc">Galaxy Fold 64GB</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img id="iphone" src="iphone-1.png" alt="Northern Lights" width="600" height="400" >
+    </a>
+    <div class="desc">Apple iPhone XS Max Gold 64GB</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="oneplus-6.jpeg" alt="oneplus" width="600" height="400">
+    </a>
+    <div class="desc">OnePlus 6T Midnight 128GB Black </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img id="huawei" src="huawei-p30.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">HUAWEI P30 LITE 128GB black</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+  <iframe id="discord"src="https://discordapp.com/widget?id=582197524752891916&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+    <p id="discord_desc">Join our server on Discord and chat with many others! Help each other with coding that sometimes does not make sence and have fun! This discord server is mainly html, css and js</p>
+         <!--here lies the good old OG Avrundad_rektangel_1
+         May you rest in peace     fs in the chat  2019-2019 -->
+
+<!--<div class="w3-content w3-display-container">
+ <img class="mySlides" src="img_snowtops.jpg" style="width:100%">
+  <img class="mySlides" src="img_lights.jpg" style="width:100%">
+   <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+    <img class="mySlides" src="img_forest.jpg" style="width:100%">
+ignore all this
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+ showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+ }
+ x[slideIndex-1].style.display = "block";
+}
+  function credits() {
+    alert("välkomen till Dragoo sales. team: jad alnabki, Murhaf ghazal");
+}
+</script>
+
+<div class="Rektangel_2"> <br><br><br>
+<div class="sp_p">
+
+  <p id="p_panel">Welcome to Dragoo sales!</p>
+</div>
+</div>
+<!-- "if you write "note" in the html, it highlights it with pink to tell
+the leader that is is a text, not a meme"
+-Jad, 2019   -->
+<div class="Rektangel_1">
+ <h3>about us</h3><br>
+<div id="middle"><a href="middle"></a></div>
+   <p1>Dragoo sales is a place where you can freely publish your own products with your own prices* Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p1>
+    <form  action="#top">
+     <button class="button" id="but_1"style="vertical-align:middle"><span>back to top </span></button>
+    </form>
+     <form  action="All products page.html">
+      <button class="button" id="but_2" onclick="All products page.html" style="vertical-align:middle"><span>All products </span></button>
+     </form>
+      <form  action="dragoo sales contact us page.html">
+      <button class="button" id="but_3" style="vertical-align:middle"><span>contact us! </span></button>
+      </form>
+     <ul>
+   <h5><b> *: NOTE: 8.9% of the products value goes to the respective company of dragoo sales as shares  </b></h5>
+    <h6>© 2019 Dragoo sales. all rights reserved</h6>
+</div>
+
+<ul id="navi">
+  <li><a class="active" href="#top">Home</a></li>
+  <li><a href="All products page.html">All products</a></li>
+  <li><a href="dragoo sales contact us page.html">contact us</a></li>
+  <li><a href="#middle">about us</a></li>
+  <li id="date">hello</li>
+</ul>
+
+  <script>
+    var d = new Date();
+  var c = d.getMonth() + 1;
+   document.getElementById("date").innerHTML = d.getFullYear() + '/' + c + ' ' + d.getDate() ;
+
+  </script>
+
+  <!--"I like that we´re doing stuff we´re not spoused to do"
+  -Murhaf 2019-->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+/*  doesn´t matter */
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<!-- a little bit of javascript will do nothing right?
+-Jad, 2019 -->
+
+<!-- NOTE:img holder position -->
+
+<!-- "Jad, I have question and it is why did you write two "is"
+in the qoute above?"
+-Murhaf, 2019--->
+<p id="phoness">featured today</p>
+
+  </body>
+</html>
